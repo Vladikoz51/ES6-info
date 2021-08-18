@@ -123,7 +123,7 @@ setTimeout(() => {box1.hide(); box2.hide();}, 3000);
 setTimeout(() => box1.show(), 5000);
 setTimeout(() => box2.show(), 6000);
 
-// Класс Circle наследуется от класса Box, поэтому в конструкторе через super вызывается конструктор класса Box
+// Класс Circle наследуется от класса Box, поэтому в конструкторе через super вызывается конструктор класса Box.
 class Circle extends Box {
     constructor(options) {
         super(options);
