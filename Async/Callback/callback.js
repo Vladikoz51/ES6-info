@@ -1,6 +1,7 @@
 //---Callback---
 
-// A Callback is a function passed as an argument to another function.
+// A callback is a simple function that's passed as a value to another function, and will only be executed when the
+// event happens.
 
 const print = some => console.log(some);
 
