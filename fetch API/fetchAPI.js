@@ -36,8 +36,8 @@ const reqURL = "https://jsonplaceholder.typicode.com/users";
 //     return new Promise((resolve, reject) => {
 //         const xhr = new XMLHttpRequest();
 //         xhr.open(method, url);
-//
 //         xhr.responseType = "json";
+
 //         // в случае если мы отправляем данные на сервер то в заголовке запроса нужно указать тип отправляемых данных
 //         // (по умолчанию text/plain), первым аргументом указывается имя заголовка а вторым значение.
 //         xhr.setRequestHeader("Content-Type", "application/json");
