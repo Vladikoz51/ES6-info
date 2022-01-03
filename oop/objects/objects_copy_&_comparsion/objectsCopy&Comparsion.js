@@ -101,3 +101,8 @@ console.log(tom == bob);    // true
 console.log(tom === bob);   // true
 // В этом случае в обоих случаях мы получим true, поскольку значения обоих констант равны, так как по сути это одно и то
 // же значение.
+
+const arr1 = [{name: 'Tom'}];
+const arr2 = [...arr1];
+arr2[0].name = 'Bob';
+console.log(arr1, arr2);
